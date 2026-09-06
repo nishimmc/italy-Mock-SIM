@@ -1,0 +1,14 @@
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.example.italymocksim'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'com.example.italymocksim'
+        minSdk 23
+        targetSdk 35
+        versionCode 2
+        versionName '1.1'
+    }
+}
